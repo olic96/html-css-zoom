@@ -1,0 +1,46 @@
+/* RESET*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+/* HEADER */
+header{
+    display: flex;
+    justify-content: space-between;
+
+    margin: 5px 10px;
+    background-color: black;
+    color: whitesmoke;
+}
+.header-left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.recording{
+    position: relative;
+    background-color:#cecece ;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.point{
+    position: absolute;
+    background-color: red;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    left: 38%;
+    bottom: 38%;
+    transform: translate(-38% -38%);
+}
+.fa-shield{
+    color: #67d669;
+}
