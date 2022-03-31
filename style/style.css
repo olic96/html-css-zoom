@@ -25,7 +25,7 @@ header{
 }
 .recording{
     position: relative;
-    background-color:#cecece ;
+    background-color:#cecece;
     width: 20px;
     height: 20px;
     border-radius: 50%;
@@ -73,4 +73,47 @@ header{
 }
 .fa-microphone-lines-slash{
     color: red;
+}
+/* FOOTER */
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color:#1b1b1b;
+}
+
+.footer-left, .footer-mid, .footer-right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.fa-angle-up{
+    position: absolute;
+    top: 5px;
+    right: 0;
+    font-size: 10px;
+    color:#cecece;
+}
+.fa-3, .fa-6{
+    font-size: 9px ;
+}
+/* BUTTONS */
+button{
+    position: relative;
+    background-color: transparent;
+    border: none;
+    color:#cecece;
+    text-align: center;
+    cursor: pointer;
+}
+.btn-green > button{
+    color:#67d669;
+}
+.btn-green .fa-angle-up{
+    color:#67d669;
+}
+.btn-red > button{
+    background-color: red;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
 }
