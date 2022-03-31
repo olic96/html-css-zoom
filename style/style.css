@@ -5,6 +5,8 @@
     box-sizing: border-box;
 }
 body{
+    width: 100vw;
+    height: 100vh;
     background-color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 13px;
@@ -13,9 +15,7 @@ body{
 header{
     display: flex;
     justify-content: space-between;
-
     margin: 5px 10px;
-    background-color: black;
     color: whitesmoke;
 }
 .header-left{
@@ -43,4 +43,34 @@ header{
 }
 .fa-shield{
     color: #67d669;
+}
+/* MAIN */
+.main-picture{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 40px;
+    width: 1440px;
+}
+.picture{
+    position: relative;
+    width: 230px;
+    height: 150px;
+    border-radius: 10px;
+    background-image: url(https://picsum.photos/200/300);
+    margin: 3px 3px;
+}
+.mic{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: whitesmoke;
+    padding: 5px 8px;
+    background-color: #374146;
+    border-radius: 5px;
+    margin-bottom: 3px;
+    margin-left: 3px;
+}
+.fa-microphone-lines-slash{
+    color: red;
 }
